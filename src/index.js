@@ -1,12 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './util/styles/css/index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import {storage} from './fb-db/'
+import reducers from './redux/reducers'
+import thunk from 'redux-thunk'
+import {Provider} from 'react-redux'
+import {applyMiddleware,createStore} from 'redux'
+
+import {BrowserRouter as Router} from 'react-router-dom'
+
+
+const store = createStore(reducers,applyMiddleware(thunk))
+
 
 ReactDOM.render(
   <React.StrictMode>
+  <Router>
+  <Provider store={store}>
     <App />
+    </Provider>
+  </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

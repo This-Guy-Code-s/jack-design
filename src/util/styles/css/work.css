@@ -1,0 +1,57 @@
+.mt-100 {
+    margin-top: 100px
+}
+
+.carousel .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    text-indent: -99px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    background: #fff;
+    border-radius: 2px
+}
+
+
+.con-x{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+
+.con-x-dt{
+  width:70%;
+}
+
+.max-cor-cor{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:50px 0px;
+}
+
+.cor-cor{
+  flex:1;
+  max-width:700px;
+  margin:0px 10px;
+}
+
+.cor-cor:hover{
+  padding:3px;
+}
+
+
+@media screen and (max-width:700px){
+  .max-cor-cor{
+ flex-direction:column;
+}
+
+.cor-cor{
+  margin:10px 0px;
+}
+
+
+}

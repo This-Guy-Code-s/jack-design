@@ -1,0 +1,29 @@
+
+.ratings i {
+    color: green
+}
+
+.install span {
+    font-size: 12px
+}
+
+.col-md-4 {
+    margin-top: 27px
+}
+
+
+.bg-cen{
+	border:none;
+}
+
+.bg-cen .row{
+background-color:#fff;
+margin:50px 0px;
+
+}
+
+.bg-cen .card{
+box-shadow:0 0 5px #999;
+flex:1;
+height:100%;
+}
