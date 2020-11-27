@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.00d1f324.chunk.css",
-    "main.js": "/static/js/main.11de83e5.chunk.js",
-    "main.js.map": "/static/js/main.11de83e5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.76a9e167.js",
-    "runtime-main.js.map": "/static/js/runtime-main.76a9e167.js.map",
-    "static/css/2.1a02f21c.chunk.css": "/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.8e99ec3b.chunk.js": "/static/js/2.8e99ec3b.chunk.js",
-    "static/js/2.8e99ec3b.chunk.js.map": "/static/js/2.8e99ec3b.chunk.js.map",
-    "static/js/3.e404989c.chunk.js": "/static/js/3.e404989c.chunk.js",
-    "static/js/3.e404989c.chunk.js.map": "/static/js/3.e404989c.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.1a02f21c.chunk.css.map": "/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.00d1f324.chunk.css.map": "/static/css/main.00d1f324.chunk.css.map",
-    "static/js/2.8e99ec3b.chunk.js.LICENSE.txt": "/static/js/2.8e99ec3b.chunk.js.LICENSE.txt",
-    "static/media/img1.c34cafcf.jpg": "/static/media/img1.c34cafcf.jpg",
-    "static/media/img2.c6dd5a28.jpg": "/static/media/img2.c6dd5a28.jpg",
-    "static/media/header.css": "/static/media/wave.5fe38509.png"
+    "main.css": "/jack-design/static/css/main.36d9beca.chunk.css",
+    "main.js": "/jack-design/static/js/main.11de83e5.chunk.js",
+    "main.js.map": "/jack-design/static/js/main.11de83e5.chunk.js.map",
+    "runtime-main.js": "/jack-design/static/js/runtime-main.70c72d23.js",
+    "runtime-main.js.map": "/jack-design/static/js/runtime-main.70c72d23.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/jack-design/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.8e99ec3b.chunk.js": "/jack-design/static/js/2.8e99ec3b.chunk.js",
+    "static/js/2.8e99ec3b.chunk.js.map": "/jack-design/static/js/2.8e99ec3b.chunk.js.map",
+    "static/js/3.e404989c.chunk.js": "/jack-design/static/js/3.e404989c.chunk.js",
+    "static/js/3.e404989c.chunk.js.map": "/jack-design/static/js/3.e404989c.chunk.js.map",
+    "index.html": "/jack-design/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/jack-design/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.36d9beca.chunk.css.map": "/jack-design/static/css/main.36d9beca.chunk.css.map",
+    "static/js/2.8e99ec3b.chunk.js.LICENSE.txt": "/jack-design/static/js/2.8e99ec3b.chunk.js.LICENSE.txt",
+    "static/media/img1.c34cafcf.jpg": "/jack-design/static/media/img1.c34cafcf.jpg",
+    "static/media/img2.c6dd5a28.jpg": "/jack-design/static/media/img2.c6dd5a28.jpg",
+    "static/media/header.css": "/jack-design/static/media/wave.5fe38509.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.76a9e167.js",
+    "static/js/runtime-main.70c72d23.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.8e99ec3b.chunk.js",
-    "static/css/main.00d1f324.chunk.css",
+    "static/css/main.36d9beca.chunk.css",
     "static/js/main.11de83e5.chunk.js"
   ]
 }
