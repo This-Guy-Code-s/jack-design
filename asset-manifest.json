@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/jack-design/static/css/main.36d9beca.chunk.css",
-    "main.js": "/jack-design/static/js/main.11de83e5.chunk.js",
-    "main.js.map": "/jack-design/static/js/main.11de83e5.chunk.js.map",
-    "runtime-main.js": "/jack-design/static/js/runtime-main.70c72d23.js",
-    "runtime-main.js.map": "/jack-design/static/js/runtime-main.70c72d23.js.map",
+    "main.css": "/jack-design/static/css/main.c624d7c7.chunk.css",
+    "main.js": "/jack-design/static/js/main.beb11ce0.chunk.js",
+    "main.js.map": "/jack-design/static/js/main.beb11ce0.chunk.js.map",
+    "runtime-main.js": "/jack-design/static/js/runtime-main.731f2e2e.js",
+    "runtime-main.js.map": "/jack-design/static/js/runtime-main.731f2e2e.js.map",
     "static/css/2.1a02f21c.chunk.css": "/jack-design/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.8e99ec3b.chunk.js": "/jack-design/static/js/2.8e99ec3b.chunk.js",
-    "static/js/2.8e99ec3b.chunk.js.map": "/jack-design/static/js/2.8e99ec3b.chunk.js.map",
-    "static/js/3.e404989c.chunk.js": "/jack-design/static/js/3.e404989c.chunk.js",
-    "static/js/3.e404989c.chunk.js.map": "/jack-design/static/js/3.e404989c.chunk.js.map",
+    "static/js/2.c0b77dbc.chunk.js": "/jack-design/static/js/2.c0b77dbc.chunk.js",
+    "static/js/2.c0b77dbc.chunk.js.map": "/jack-design/static/js/2.c0b77dbc.chunk.js.map",
+    "static/js/3.3a2f57ec.chunk.js": "/jack-design/static/js/3.3a2f57ec.chunk.js",
+    "static/js/3.3a2f57ec.chunk.js.map": "/jack-design/static/js/3.3a2f57ec.chunk.js.map",
     "index.html": "/jack-design/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/jack-design/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.36d9beca.chunk.css.map": "/jack-design/static/css/main.36d9beca.chunk.css.map",
-    "static/js/2.8e99ec3b.chunk.js.LICENSE.txt": "/jack-design/static/js/2.8e99ec3b.chunk.js.LICENSE.txt",
+    "static/css/main.c624d7c7.chunk.css.map": "/jack-design/static/css/main.c624d7c7.chunk.css.map",
+    "static/js/2.c0b77dbc.chunk.js.LICENSE.txt": "/jack-design/static/js/2.c0b77dbc.chunk.js.LICENSE.txt",
+    "static/media/header.css": "/jack-design/static/media/wave.5fe38509.png",
     "static/media/img1.c34cafcf.jpg": "/jack-design/static/media/img1.c34cafcf.jpg",
-    "static/media/img2.c6dd5a28.jpg": "/jack-design/static/media/img2.c6dd5a28.jpg",
-    "static/media/header.css": "/jack-design/static/media/wave.5fe38509.png"
+    "static/media/img2.c6dd5a28.jpg": "/jack-design/static/media/img2.c6dd5a28.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.70c72d23.js",
+    "static/js/runtime-main.731f2e2e.js",
     "static/css/2.1a02f21c.chunk.css",
-    "static/js/2.8e99ec3b.chunk.js",
-    "static/css/main.36d9beca.chunk.css",
-    "static/js/main.11de83e5.chunk.js"
+    "static/js/2.c0b77dbc.chunk.js",
+    "static/css/main.c624d7c7.chunk.css",
+    "static/js/main.beb11ce0.chunk.js"
   ]
 }
