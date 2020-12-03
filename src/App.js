@@ -2,10 +2,13 @@ import React from 'react'
 import './util/styles/css/App.css';
 import './util/styles/css/cards.css';
 import './util/styles/css/work.css';
+import './util/styles/css/comments.css';
+import './util/styles/css/super-image.css';
 import './util/styles/css/contact.css';
 import Loading from './comps/LoadingScreen'
 import Content from './comps/app/'
 import Gallery from './comps/app/center/Work'
+import Comments from './comps/app/center/Comments'
 import Contact from './comps/app/center/Contact'
 import Footer from './comps/footer/'
 // import Cookie from 'js-cookie' 
@@ -35,11 +38,19 @@ class App extends React.Component{
   return (
     <div className="App">
       {this.props.loading?<Loading/>:<Content/>}
+
+
+                <h1>My Latest Work</h1>
       <div className='container-fluid max-cor-cor' style={{background:'#fff'}}>
       <Gallery/>
-      <Gallery/>
-      <Gallery/>
       </div>
+
+
+       <div className='container-fluid max-cor-cor' style={{background:'#fff'}}>
+      <Comments/>
+      </div>
+
+
       <Contact/>
       <Footer/>
     </div>

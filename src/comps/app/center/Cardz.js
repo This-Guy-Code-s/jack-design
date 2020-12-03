@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../../util/styles/css/cards.css';
 import {connect} from 'react-redux'
-
+import SuperImage from './Super-Image'
 
 
 
@@ -11,10 +11,18 @@ class Cards extends React.Component{
 		this.state={
 
 		}
+        this.scrollToContact = this.scrollToContact.bind(this)
+
 	}
 
 
 
+
+    scrollToContact(){
+        document.querySelector("#contact").scrollIntoView()
+    }
+
+    
 
 
 
@@ -22,62 +30,27 @@ class Cards extends React.Component{
 
 		return (
 
-    <div class="container-fluid mt-5 bg-cen " style={{background:'#fff'}}>
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card p-3">
-                <div class="d-flex flex-row mb-3"><img src={this.props.img1}alt="Jack Designs"  width="100" height="80"/>
-                    <div class="d-flex flex-column ml-2"><span>Title</span><span class="text-black-50">Sub Title</span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
+    <div className="container-fluid mt-5 bg-cen " style={{background:'#fff'}}>
+    <div className="row" id="starting">
+        
+      {
+
+        [1,2,3,4,5,6].map(i =>{
+            return (
+                    <div className="col-md-4" key={i}>
+            <div className="card p-3">
+                <div className="d-flex flex-row mb-3"><SuperImage src={this.props.img1}/>
                 </div>
-                <h6> Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h6>
-                <div class="d-flex justify-content-between install mt-3"><span>Installed 172 times</span><span class="text-primary">View&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    <div className="d-flex flex-column ml-2"><span>Title</span><span className="text-black-50">Sub Title</span><span className="ratings"><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i></span></div>
+                <h6> Description and detail of your work will go here....</h6>
+                <div className="d-flex justify-content-between install mt-3"><span>Posted: Dec. 2nd 2020</span><span className="text-primary a " onClick={this.scrollToContact}>Interested&nbsp;<i className="fa fa-angle-right"></i></span></div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card p-3">
-                <div class="d-flex flex-row mb-3"><img src={this.props.img1}alt="Jack Designs"  width="100" height="80"/>
-                    <div class="d-flex flex-column ml-2"><span>Title</span><span class="text-black-50">Sub Title</span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
-                </div>
-                <h6>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h6>
-                <div class="d-flex justify-content-between install mt-3"><span>Installed 1234 times</span><span class="text-primary">View&nbsp;<i class="fa fa-angle-right"></i></span></div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card p-3">
-                <div class="d-flex flex-row mb-3"><img src={this.props.img1} alt="Jack Designs"  width="100" height="80"/>
-                    <div class="d-flex flex-column ml-2"><span>Title</span><span class="text-black-50">Sub Title</span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
-                </div>
-                <h6>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h6>
-                <div class="d-flex justify-content-between install mt-3"><span>Installed 1234 times</span><span class="text-primary">View&nbsp;<i class="fa fa-angle-right"></i></span></div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card p-3">
-                <div class="d-flex flex-row mb-3"><img src={this.props.img1} alt="Jack Designs"  width="100" height="80"/>
-                    <div class="d-flex flex-column ml-2"><span>Title</span><span class="text-black-50">Sub Title</span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
-                </div>
-                <h6>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h6>
-                <div class="d-flex justify-content-between install mt-3"><span>Installed 1234 times</span><span class="text-primary">View&nbsp;<i class="fa fa-angle-right"></i></span></div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card p-3">
-                <div class="d-flex flex-row mb-3"><img src={this.props.img1} alt="Jack Designs"  width="100" height="80"/>
-                    <div class="d-flex flex-column ml-2"><span>Title</span><span class="text-black-50">Sub Title</span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
-                </div>
-                <h6>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h6>
-                <div class="d-flex justify-content-between install mt-3"><span>Installed 345 times</span><span class="text-primary">View&nbsp;<i class="fa fa-angle-right"></i></span></div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card p-3">
-                <div class="d-flex flex-row mb-3"><img src={this.props.img1} alt="Jack Designs"  width="100" height="80"/>
-                    <div class="d-flex flex-column ml-2"><span>Title</span><span class="text-black-50">Sub Title</span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
-                </div>
-                <h6>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h6>
-                <div class="d-flex justify-content-between install mt-3"><span>Installed 345 times</span><span class="text-primary">View&nbsp;<i class="fa fa-angle-right"></i></span></div>
-            </div>
-        </div>
+                )
+        })  
+
+
+      }
     </div>
 </div>
 

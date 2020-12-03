@@ -9,18 +9,15 @@ class Header extends React.Component{
 		this.state={
 
 		}
-	}
-	componentDidMount(){
-		console.log(this.props,'App Mounted Successfully...')
+		this.scrollToCenter = this.scrollToCenter.bind(this)
 	}
 
-	componentDidUpdate(){
-		console.log('App Made Update Successfully...')
+
+	scrollToCenter(){
+		document.querySelector("#starting").scrollIntoView()
 	}
 
-	componentWillUnmount(){
-		console.log('App UnMounted Successfully GoodBye...')
-	}
+	
 
 	render(){
 
@@ -32,7 +29,7 @@ return (
 <section class="hero">
   <div class="content">
     <h2>Hi, I'm Jack.</h2>
-    <p>I draw designs of all kinds. I will be posting my work here, so feel free to check it out anytime. If you like my work and want a drawing of your own, don't hesitate to contact me. Thanks For Coming. <Button size='sm' color='info'><i className="fas fa-arrow-circle-down"></i></Button></p>
+    <p>I draw designs of all kinds. I will be posting my work here, so feel free to check it out anytime. If you like my work and want a drawing of your own, don't hesitate to contact me. Thanks For Coming. <Button size='sm' color='dark' onClick={this.scrollToCenter} style={{borderRadius:'100%'}}><i className="fas fa-arrow-circle-down"></i></Button></p>
     </div>
   <div class="waves"></div>
 </section>

@@ -21,7 +21,8 @@ class Cards extends React.Component{
 	render(){
 
 		return (
-            <div className="container-fluid"  style={{background:'#fff'}}>
+            <div className="container-fluid"  style={{textAlign:'center',background:'#fff'}}>
+                <h1>My Best Work</h1>
                 <Cardz/>
             </div>
 

@@ -1,5 +1,5 @@
 :root {
-  --color: #4973ff;
+  --color: rgba(0,0,0,0);
 }
 
 
@@ -11,7 +11,11 @@
 
 .hero {
   position: relative;
-  background: #333333;
+  background-image:url('../../../util/imgs/bg.jpg');
+  background-repeat:no-repeat;
+  background-position:top center;
+  background-size:cover;
+ 
   color: white;
   height: 100vh;
   display: flex;
