@@ -10,17 +10,7 @@ class Content extends React.Component{
 
 		}
 	}
-	componentDidMount(){
-		console.log(this.props,'App Mounted Successfully...')
-	}
 
-	componentDidUpdate(){
-		console.log('App Made Update Successfully...')
-	}
-
-	componentWillUnmount(){
-		console.log('App UnMounted Successfully GoodBye...')
-	}
 
 	render(){
 

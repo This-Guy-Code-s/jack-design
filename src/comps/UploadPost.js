@@ -120,7 +120,7 @@ componentDidUpdate(){
   render(){
 
         return (
-          <h1>ok</h1>
+          <h1>Upload Post Admin Only</h1>
 
 
         )

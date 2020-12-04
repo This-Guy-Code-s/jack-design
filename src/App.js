@@ -23,7 +23,9 @@ class App extends React.Component{
 		}
 	}
 	componentDidMount(){
+		console.clear()
 		console.log(this.props,'App Mounted Successfully...')
+
 	}
 
 	componentDidUpdate(){

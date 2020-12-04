@@ -2,8 +2,10 @@ import React from 'react'
 import '../../../util/styles/css/cards.css';
 import {connect} from 'react-redux'
 import SuperImage from './Super-Image'
+import uuid from 'uuid-random'
 
 
+// COMPONNENT NEEDS A FRONT END CACHE SERVER THATS ACCESSABLE
 
 class Cards extends React.Component{
 	constructor(props){
@@ -35,15 +37,15 @@ class Cards extends React.Component{
         
       {
 
-        [1,2,3,4,5,6].map(i =>{
+        this.props.default_main_cardz.map((obj,i) =>{
             return (
-                    <div className="col-md-4" key={i}>
+                    <div className="col-md-4" key={uuid()}>
             <div className="card p-3">
-                <div className="d-flex flex-row mb-3"><SuperImage src={this.props.img1}/>
+                <div className="d-flex flex-row mb-3"><SuperImage src={obj.img}/>
                 </div>
-                    <div className="d-flex flex-column ml-2"><span>Title</span><span className="text-black-50">Sub Title</span><span className="ratings"><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i></span></div>
-                <h6> Description and detail of your work will go here....</h6>
-                <div className="d-flex justify-content-between install mt-3"><span>Posted: Dec. 2nd 2020</span><span className="text-primary a " onClick={this.scrollToContact}>Interested&nbsp;<i className="fa fa-angle-right"></i></span></div>
+                    <div className="d-flex flex-column ml-2"><span>{obj.title}</span><span className="text-black-50">{obj.sub_title}</span><span className="ratings"><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i></span></div>
+                <h6> {obj.desc}</h6>
+                <div className="d-flex justify-content-between install mt-3"><span>Posted:{obj.date}</span><span className="text-primary a " onClick={this.scrollToContact}>Interested&nbsp;<i className="fa fa-angle-right"></i></span></div>
             </div>
         </div>
                 )
@@ -66,7 +68,7 @@ class Cards extends React.Component{
 
 const mapStateToProps = state =>{
     return {
-        ...state
+        default_main_cardz:state.default_main_cardz
     }
 }
 
